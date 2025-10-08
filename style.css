@@ -74,3 +74,77 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+.resume {
+  display: grid;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.resume .title {
+  background-image: url("images/space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 4em 6vw;
+  text-align: left;
+  border-bottom: none;
+}
+.resume .title h2 {
+  color: white;
+  font-size: 3em;
+  margin: 0 0 0.3em 0;
+}
+.resume .title p {
+  color: white;
+  margin: 0;
+  font-size: 1.2em;
+}
+.resume .title a {
+  color: oklch(90% 0.1 250);
+  text-decoration: none;
+}
+.resume .title a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.resume h3 {
+  color: oklch(55% 0.15 230);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-size: 1.4em;
+  border-bottom: 2px solid oklch(65% 0.15 230);
+  padding-bottom: 0.3em;
+}
+.resume h4 {
+  font-size: 1.1em;
+  color: oklch(50% 5% 250);
+  color: oklch(70% 0.1 250);
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+.resume ul {
+  padding-left: 1.2em;
+  margin-block: 0.5em 1em;
+  line-height: 1.5;
+}
+.resume a {
+  color: oklch(70% 0.1 250);
+  text-decoration: none;
+}
+.resume a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.resume ul li b {
+  color: oklch(50% 5% 250)
+}
