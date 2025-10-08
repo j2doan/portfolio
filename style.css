@@ -93,9 +93,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  padding: 4em 6vw;
+  overflow-x: clip;
+  padding: 4em max(6vw, calc((100vw - 100ch) / 2));
   text-align: left;
   border-bottom: none;
+  box-sizing: border-box;
 }
 .resume .title h2 {
   color: white;
@@ -104,8 +106,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .resume .title p {
   color: white;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: center;
   font-size: 1.2em;
+  margin: 0;
+  white-space: normal;
 }
 .resume .title a {
   color: oklch(90% 0.1 250);
