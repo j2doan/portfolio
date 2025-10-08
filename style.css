@@ -29,7 +29,6 @@ nav a {
 }
 nav a.current {
   border-bottom: 0.4em solid oklch(85% 3% 200);
-  padding-bottom: 0.1em;
   font-weight: bold;
 }
 nav a:hover {
@@ -55,4 +54,23 @@ form label {
 form button {
   grid-column: 1 / -1;
   margin-block: 0.4em; 
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+.projects article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+.projects article h2 {
+  margin: 0;
+}
+h1 {
+  font-size: 400%;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
 }
