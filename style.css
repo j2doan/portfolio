@@ -138,7 +138,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .resume h4 {
   font-size: 1.1em;
-  color: oklch(50% 5% 250);
   color: oklch(70% 0.1 250);
   margin-top: 1em;
   margin-bottom: 0.75em;
@@ -157,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 .resume ul li b {
-  color: oklch(50% 5% 250)
+  color: oklch(65% 0.05 250)
 }
 .color-scheme {
   position: absolute;
@@ -165,4 +164,9 @@ h1, h2, h3, h4, h5, h6 {
   right: 1rem;
   font-size: 80%;
   font-family: inherit;
+}
+@media (prefers-color-scheme: dark) {
+  .resume ul li b {
+    color: oklch(85% 0.05 250);
+  }
 }
