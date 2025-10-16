@@ -159,3 +159,10 @@ h1, h2, h3, h4, h5, h6 {
 .resume ul li b {
   color: oklch(50% 5% 250)
 }
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+}
