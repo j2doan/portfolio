@@ -1,61 +1,73 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid pariatur esse officia molestiae rerum placeat, soluta doloremque, sequi, facilis dolores eaque nesciunt architecto cumque voluptas veritatis natus inventore reprehenderit iusto."
+        "title": "League of Legends Ward Correlation Analysis",
+        "year": "2025",
+        "image": "./images/lol_wpm.jpg",
+        "description": "Is there an optimal number of wards you need to place per minute to win in League of Legends? Discover more about this potential meta-strategy!"
     },
     {
-        "title": "Ducimus consequuntur eveniet iure?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Laborum deleniti maxime a similique iure totam ad rerum velit. Nesciunt doloribus quia, minima fugiat blanditiis libero placeat molestias tempore maiores veniam repellendus provident recusandae consequuntur similique cupiditate iste culpa?"
+        "title": "Restaurant Ethnicity-Demographic Analysis",
+        "year": "2024",
+        "image": "./images/restaurant_ethnicity.jpg",
+        "description": "Explore how the cultural makeup of San Diego's neighborhoods shapes the diversification of ethnic cuisines across the city!"
     },
     {
-        "title": "Cupiditate minima nisi facere.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero voluptas provident a repellendus, rerum delectus ipsa voluptate cum quisquam similique, esse blanditiis iste molestias dignissimos, numquam soluta maiores. Aperiam ad porro reprehenderit id quam amet consequuntur illo dicta!"
+        "title": "Grocery Price-per-Calorie Exploratory Visualization",
+        "year": "2025",
+        "image": "./images/food_priceal.jpg",
+        "description": "Are you really getting a bang for your buck while shopping for groceries? Learn more about which grocery store gives you the most calories per dollar!"
     },
     {
         "title": "Sit animi minima deleniti.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Est, voluptas. Officia eius quas perspiciatis veritatis quod maiores obcaecati nobis, ducimus pariatur doloribus sapiente! Voluptatum non inventore voluptatem impedit asperiores eaque eius voluptas! Libero rem dolore aliquid nesciunt ratione."
     },
     {
         "title": "Debitis, impedit assumenda. Corporis.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "A distinctio magnam fugiat, est, totam, fuga hic illum ratione nesciunt sint sit cumque molestias fugit eius laborum earum explicabo blanditiis repudiandae ipsum at quidem velit harum. Itaque, iure suscipit?"
     },
     {
         "title": "Doloremque quae quasi nesciunt!",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Laborum, autem exercitationem, impedit, error molestias illum officiis ducimus quas modi asperiores commodi dolore sunt et? Quis dolore vero tempora illo repudiandae voluptas sed. Alias molestias labore eum repellat atque."
     },
     {
         "title": "Minus ullam sit enim.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Enim, minima deleniti veniam id maiores hic illum eveniet totam sit in doloribus, dolores natus voluptates dolorem nisi, delectus quam harum vel commodi tempore iste? At adipisci saepe fuga eveniet."
     },
     {
         "title": "Temporibus ex officia saepe.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "At reprehenderit placeat expedita dolore animi maxime, magni minima assumenda sint ipsa ut illum alias cumque rem. Assumenda, facilis quis beatae ipsum blanditiis voluptate, incidunt fugiat laborum dignissimos esse officia!"
     },
     {
         "title": "Enim inventore similique at?",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Consequuntur, culpa esse atque rerum saepe quo ea nulla similique, quidem doloribus vitae quibusdam. Nulla quas temporibus, tempora beatae quos illum non. Iure consequuntur inventore ut excepturi dolor soluta officia?"
     },
     {
         "title": "Reprehenderit eius omnis obcaecati!",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Quidem odio, earum illo fugit eius aliquid. Libero sint numquam cumque asperiores, voluptas illum adipisci natus incidunt, officia quod omnis voluptates perferendis dolorum aspernatur sapiente veniam aliquam! Iure, accusamus adipisci?"
     },
     {
         "title": "Magnam quae quod fugiat.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Necessitatibus, accusamus illum unde et eligendi debitis numquam iure blanditiis autem exercitationem laudantium sint ducimus provident? Distinctio suscipit sequi tempora error natus cum ad? Laudantium, officiis! Ratione recusandae debitis omnis!"
     },
     {
         "title": "Consectetur repellat iure atque.",
+        "year": "20XX",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Sint ipsa voluptatem explicabo. Excepturi corrupti rerum praesentium delectus modi error dignissimos fugit labore placeat magnam ad sit quia molestiae non ut provident similique, maxime, eveniet laboriosam. Iure, saepe repellendus."
     }
