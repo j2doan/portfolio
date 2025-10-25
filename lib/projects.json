@@ -1,20 +1,20 @@
 [
     {
-        "title": "League of Legends Ward Correlation Analysis",
+        "title": "League of Legends Correlation Analysis",
         "year": "2025",
-        "image": "../images/lol_wpm.jpg",
+        "image": "https://j2doan.github.io/portfolio/images/lol_wpm.jpg",
         "description": "Is there an optimal number of wards you need to place per minute to win in League of Legends? Discover more about this potential meta-strategy!"
     },
     {
         "title": "Restaurant Ethnicity-Demographic Analysis",
         "year": "2024",
-        "image": "../images/restaurant_ethnicity.jpg",
+        "image": "https://j2doan.github.io/portfolio/images/restaurant_ethnicity.jpg",
         "description": "Explore how the cultural makeup of San Diego's neighborhoods shapes the diversification of ethnic cuisines across the city!"
     },
     {
-        "title": "Grocery Price-per-Calorie Exploratory Visualization",
+        "title": "Grocery Exploratory Visualization",
         "year": "2025",
-        "image": "../images/food_priceal.jpg",
+        "image": "https://j2doan.github.io/portfolio/images/food_pricecal.jpg",
         "description": "Are you really getting a bang for your buck while shopping for groceries? Learn more about which grocery store gives you the most calories per dollar!"
     },
     {
