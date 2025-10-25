@@ -120,7 +120,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
         headingLevel = 'h2';
     }
 
-    containerElement.innerHTML = '';
+    containerElement.innerHTML = ''; // REMOVES ALL OF THE PROJECTS IN THE projects/index.html PAGE, SO WHATEVER IS PUT HERE OVERRIDES IT
 
     project.forEach(p => {
         const article = document.createElement('article'); // create new article element for project
