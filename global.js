@@ -138,10 +138,15 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
             ? p.description
             : 'No description available.';
 
+        const year = typeof p.year === 'string' && p.year.trim() !== ''
+            ? p.year
+            : 'Unknown Year';
+
         article.innerHTML = `
             <${headingLevel}>${title}</${headingLevel}>
             <img src="${image}" alt="${title}">
             <p>${description}</p>
+            <div class="project-year">c. ${year}</div>
         `;
 
         containerElement.appendChild(article);

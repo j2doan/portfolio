@@ -205,6 +205,105 @@ img[alt*="Geisel Library"] {
   grid-row: 2;
 }
 
+.project-year {
+    font-family: Baskerville, serif;
+    font-variant-numeric: oldstyle-nums;
+    color: #555;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+
+
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  border: 2px solid #ccc;
+  padding: 1em;
+  margin-top: 1.5em;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--color);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.legend-item em {
+  font-style: normal;
+  color: #666;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.container svg {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+}
+
+.container .legend {
+  flex: 1;
+  margin: 0;
+  padding: 1em;
+  list-style: none;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+
+
+
+
 @media (prefers-color-scheme: dark) {
   .resume ul li b {
     color: oklch(85% 0.05 250);
@@ -219,5 +318,14 @@ img[alt*="Geisel Library"] {
 
   #profile-stats dd {
     color: oklch(85% 0.05 250);
+  }
+
+  .project-year {
+    color: #bebebe;
+  }
+
+  .legend {
+    border: 2px solid #363636;
+    background: #1d1d1d;
   }
 }
