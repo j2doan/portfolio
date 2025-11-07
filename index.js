@@ -21,3 +21,5 @@ if (profileStats) {
         </dl>
     `;
 }
+
+profileStats.insertAdjacentHTML('afterbegin', `<dl>Github Statistics</dl>`);
