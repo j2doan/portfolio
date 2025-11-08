@@ -173,9 +173,40 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   margin-top: 0.75rem;
 }
-img[alt*="Geisel Library"] {
-  border-radius: 10px;
+
+.home-banner {
+  background-image: url("images/nebula2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  padding: 4em max(6vw, calc((100vw - 100ch) / 2));
+  text-align: left;
+
+  box-sizing: border-box;
 }
+
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* img[alt*="Geisel Library"] {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+  display: block;
+  border-radius: 10px;
+} */
 
 
 
@@ -336,4 +367,113 @@ path {
   margin: 0;
   font-size: 24px;
   grid-row: 2;
+}
+
+
+
+.y-grid line {
+  stroke: #ccc;
+  stroke-opacity: 0.6;
+  shape-rendering: crispEdges;
+}
+
+.y-grid path {
+  display: none; /* hides the main axis line */
+}
+
+
+
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.75rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background: var(--tooltip-bg, #f8f9fa);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #333;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+dl.info dt {
+  font-weight: 600;
+  color: #8f8f8f;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background: rgba(255, 255, 255, 0.95);
+  pointer-events: none; /* lets mouse events pass through */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+circle {
+  transition: transform 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+
+
+#language-breakdown {
+  display: grid;
+  grid-template-columns: auto 1fr; /* two columns: label and value */
+  gap: 0.25rem 1rem;               /* row gap, column gap */
+  width: auto;
+  margin: 2rem 0 2rem 0; 
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid currentColor;
+}
+
+#language-breakdown dt {
+  font-weight: bold;
+  color: #8f8f8f;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#language-breakdown dd {
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
 }
