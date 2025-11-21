@@ -6,10 +6,34 @@
         "description": "Is there an optimal number of wards you need to place per minute to win in League of Legends? Discover more about this potential meta-strategy!"
     },
     {
+        "title": "Geospatial Interaction: Day/Night US Wildfires",
+        "year": "2025",
+        "image": "https://j2doan.github.io/portfolio/images/geo_interact.jpg",
+        "description": "Visualize crucial data from the latest US Wildfires through an interaction that filters by Day/Night cycles and time!"
+    },
+    {
+        "title": "Goodreads Rate, Read, Categorize Modeling",
+        "year": "2025",
+        "image": "https://j2doan.github.io/portfolio/images/book.jpg",
+        "description": "Learn how to build 3 models that predict ratings, read potential, and book genres scrapped from Goodreads book reviews!"
+    },
+    {
+        "title": "Minecraft Biome Image Classifier",
+        "year": "2025",
+        "image": "https://j2doan.github.io/portfolio/images/biomes.jpg",
+        "description": "Discover the methods used to create a image classification model that can predict any Minecraft biome!"
+    },
+    {
         "title": "Restaurant Ethnicity-Demographic Analysis",
         "year": "2024",
         "image": "https://j2doan.github.io/portfolio/images/restaurant_ethnicity.jpg",
         "description": "Explore how the cultural makeup of San Diego's neighborhoods shapes the diversification of ethnic cuisines across the city!"
+    },
+    {
+        "title": "Persuasive-Deceptive: Climate Change",
+        "year": "2025",
+        "image": "https://j2doan.github.io/portfolio/images/persuasive_deceptive.jpg",
+        "description": "Is climate change that much of an issue? Find the answer from both perspectives using professional visualizations that intentionally deceive audiences!"
     },
     {
         "title": "Grocery Exploratory Visualization",
@@ -18,40 +42,16 @@
         "description": "Are you really getting a bang for your buck while shopping for groceries? Learn more about which grocery store gives you the most calories per dollar!"
     },
     {
-        "title": "Sit animi minima deleniti.",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Est, voluptas. Officia eius quas perspiciatis veritatis quod maiores obcaecati nobis, ducimus pariatur doloribus sapiente! Voluptatum non inventore voluptatem impedit asperiores eaque eius voluptas! Libero rem dolore aliquid nesciunt ratione."
+        "title": "Asianhood Candy 2025 Z-Score Analysis",
+        "year": "2025",
+        "image": "https://j2doan.github.io/portfolio/images/candy.jpg",
+        "description": "A friends-only Discord Halloween Event turns into a rigged competition? Find out how lucky contestants were in competing during this annual event!"
     },
     {
-        "title": "Debitis, impedit assumenda. Corporis.",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A distinctio magnam fugiat, est, totam, fuga hic illum ratione nesciunt sint sit cumque molestias fugit eius laborum earum explicabo blanditiis repudiandae ipsum at quidem velit harum. Itaque, iure suscipit?"
-    },
-    {
-        "title": "Doloremque quae quasi nesciunt!",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Laborum, autem exercitationem, impedit, error molestias illum officiis ducimus quas modi asperiores commodi dolore sunt et? Quis dolore vero tempora illo repudiandae voluptas sed. Alias molestias labore eum repellat atque."
-    },
-    {
-        "title": "Minus ullam sit enim.",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Enim, minima deleniti veniam id maiores hic illum eveniet totam sit in doloribus, dolores natus voluptates dolorem nisi, delectus quam harum vel commodi tempore iste? At adipisci saepe fuga eveniet."
-    },
-    {
-        "title": "Temporibus ex officia saepe.",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "At reprehenderit placeat expedita dolore animi maxime, magni minima assumenda sint ipsa ut illum alias cumque rem. Assumenda, facilis quis beatae ipsum blanditiis voluptate, incidunt fugiat laborum dignissimos esse officia!"
-    },
-    {
-        "title": "Enim inventore similique at?",
-        "year": "20XX",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consequuntur, culpa esse atque rerum saepe quo ea nulla similique, quidem doloribus vitae quibusdam. Nulla quas temporibus, tempora beatae quos illum non. Iure consequuntur inventore ut excepturi dolor soluta officia?"
+        "title": "Anime Tower Defense Portal RNG Analysis",
+        "year": "2024",
+        "image": "https://j2doan.github.io/portfolio/images/portals.jpg",
+        "description": "Get enraged by the shocking conclusion of a Roblox Tower Defense Game's probability! Is the game cheating? How many times does it actually take to get a 1.5% drop?"
     },
     {
         "title": "Reprehenderit eius omnis obcaecati!",
